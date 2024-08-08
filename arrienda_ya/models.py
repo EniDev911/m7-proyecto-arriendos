@@ -1,11 +1,15 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import User
 
-class Usuario(AbstractUser):
+class Usuario(models.Model):
+  user = models.OneToOneField(User, on_delete=models.CASCADE)
   rut = models.CharField(max_length=9, unique=True)
   direccion = models.CharField(max_length=100)
   telefono = models.CharField(max_length=12, null=False)
 
+  def __str__(self):
+    return f"Se creo al usuario: {self.username}"
+  
 class TipoUsuario(models.Model):
   TIPO_CHOICES = [('A', 'arrendatario'), ('B', 'arrendador')]
   tipo = models.CharField(max_length=1,choices=TIPO_CHOICES, default='A')
