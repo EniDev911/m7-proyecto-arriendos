@@ -11,11 +11,14 @@ class Usuario(models.Model):
     return f"Se creo al usuario: {self.username}"
   
 class TipoUsuario(models.Model):
-  TIPO_CHOICES = [('A', 'arrendatario'), ('B', 'arrendador')]
-  tipo = models.CharField(max_length=1,choices=TIPO_CHOICES, default='A')
+  TIPO_USUARIO = [('a', 'arrendatario'), ('b', 'arrendador')]
+  tipo = models.CharField(max_length=1,choices=TIPO_USUARIO, default='A')
+
+  def __str__(self) -> str:
+    return f"{self.get_tipo_display()}"
 
 class Inmueble(models.Model):
-  TIPO_INMUEBLE = [('A', 'terreno'), ('B', 'edificio'), ('C', 'casa')]
+  TIPO_INMUEBLE = [('a', 'terreno'), ('b', 'edificio'), ('c', 'casa')]
   id_usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE, null=True)
   tipo_inmueble = models.CharField(max_length=60, choices=TIPO_INMUEBLE)
   nombre_inmueble = models.CharField(max_length=100, null=False)
