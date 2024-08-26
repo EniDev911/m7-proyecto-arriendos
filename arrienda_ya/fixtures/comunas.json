@@ -1,0 +1,1584 @@
+[
+  { "model": "arrienda_ya.comuna", "pk": 1, "fields": { "comuna": "Arica" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 2,
+    "fields": { "comuna": "Camarones" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 3, "fields": { "comuna": "Putre" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 4,
+    "fields": { "comuna": "General Lagos" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 5, "fields": { "comuna": "Iquique" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 6,
+    "fields": { "comuna": "Alto Hospicio" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 7,
+    "fields": { "comuna": "Pozo Almonte" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 8,
+    "fields": { "comuna": "Cami\u00f1a" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 9,
+    "fields": { "comuna": "Colchane" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 10, "fields": { "comuna": "Huara" } },
+  { "model": "arrienda_ya.comuna", "pk": 11, "fields": { "comuna": "Pica" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 12,
+    "fields": { "comuna": "Antofagasta" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 13,
+    "fields": { "comuna": "Mejillones" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 14,
+    "fields": { "comuna": "Sierra Gorda" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 15, "fields": { "comuna": "Taltal" } },
+  { "model": "arrienda_ya.comuna", "pk": 16, "fields": { "comuna": "Calama" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 17,
+    "fields": { "comuna": "Ollag\u00fce" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 18,
+    "fields": { "comuna": "San Pedro de Atacama" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 19,
+    "fields": { "comuna": "Tocopilla" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 20,
+    "fields": { "comuna": "Mar\u00eda Elena" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 21,
+    "fields": { "comuna": "Copiap\u00f3" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 22,
+    "fields": { "comuna": "Caldera" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 23,
+    "fields": { "comuna": "Tierra Amarilla" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 24,
+    "fields": { "comuna": "Cha\u00f1aral" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 25,
+    "fields": { "comuna": "Diego de Almagro" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 26,
+    "fields": { "comuna": "Vallenar" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 27,
+    "fields": { "comuna": "Alto del Carmen" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 28,
+    "fields": { "comuna": "Freirina" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 29, "fields": { "comuna": "Huasco" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 30,
+    "fields": { "comuna": "La Serena" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 31,
+    "fields": { "comuna": "Coquimbo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 32,
+    "fields": { "comuna": "Andacollo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 33,
+    "fields": { "comuna": "La Higuera" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 34,
+    "fields": { "comuna": "Paiguano" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 35,
+    "fields": { "comuna": "Vicu\u00f1a" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 36,
+    "fields": { "comuna": "Illapel" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 37, "fields": { "comuna": "Canela" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 38,
+    "fields": { "comuna": "Los Vilos" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 39,
+    "fields": { "comuna": "Salamanca" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 40, "fields": { "comuna": "Ovalle" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 41,
+    "fields": { "comuna": "Combarbal\u00e1" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 42,
+    "fields": { "comuna": "Monte Patria" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 43,
+    "fields": { "comuna": "Punitaqui" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 44,
+    "fields": { "comuna": "R\u00edo Hurtado" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 45,
+    "fields": { "comuna": "Valpara\u00edso" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 46,
+    "fields": { "comuna": "Casablanca" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 47,
+    "fields": { "comuna": "Conc\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 48,
+    "fields": { "comuna": "Juan Fern\u00e1ndez" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 49,
+    "fields": { "comuna": "Puchuncav\u00ed" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 50,
+    "fields": { "comuna": "Quintero" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 51,
+    "fields": { "comuna": "Vi\u00f1a del Mar" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 52,
+    "fields": { "comuna": "Isla de Pascua" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 53,
+    "fields": { "comuna": "Los Andes" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 54,
+    "fields": { "comuna": "Calle Larga" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 55,
+    "fields": { "comuna": "Rinconada" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 56,
+    "fields": { "comuna": "San Esteban" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 57,
+    "fields": { "comuna": "La Ligua" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 58,
+    "fields": { "comuna": "Cabildo" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 59, "fields": { "comuna": "Papudo" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 60,
+    "fields": { "comuna": "Petorca" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 61,
+    "fields": { "comuna": "Zapallar" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 62,
+    "fields": { "comuna": "Quillota" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 63, "fields": { "comuna": "Calera" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 64,
+    "fields": { "comuna": "Hijuelas" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 65,
+    "fields": { "comuna": "La Cruz" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 66,
+    "fields": { "comuna": "Nogales" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 67,
+    "fields": { "comuna": "San Antonio" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 68,
+    "fields": { "comuna": "Algarrobo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 69,
+    "fields": { "comuna": "Cartagena" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 70,
+    "fields": { "comuna": "El Quisco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 71,
+    "fields": { "comuna": "El Tabo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 72,
+    "fields": { "comuna": "Santo Domingo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 73,
+    "fields": { "comuna": "San Felipe" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 74, "fields": { "comuna": "Catemu" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 75,
+    "fields": { "comuna": "Llaillay" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 76,
+    "fields": { "comuna": "Panquehue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 77,
+    "fields": { "comuna": "Putaendo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 78,
+    "fields": { "comuna": "Santa Mar\u00eda" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 79,
+    "fields": { "comuna": "Quilpu\u00e9" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 80,
+    "fields": { "comuna": "Limache" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 81,
+    "fields": { "comuna": "Olmu\u00e9" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 82,
+    "fields": { "comuna": "Villa Alemana" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 83,
+    "fields": { "comuna": "Rancagua" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 84,
+    "fields": { "comuna": "Codegua" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 85, "fields": { "comuna": "Coinco" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 86,
+    "fields": { "comuna": "Coltauco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 87,
+    "fields": { "comuna": "Do\u00f1ihue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 88,
+    "fields": { "comuna": "Graneros" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 89,
+    "fields": { "comuna": "Las Cabras" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 90,
+    "fields": { "comuna": "Machal\u00ed" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 91, "fields": { "comuna": "Malloa" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 92,
+    "fields": { "comuna": "Mostazal" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 93, "fields": { "comuna": "Olivar" } },
+  { "model": "arrienda_ya.comuna", "pk": 94, "fields": { "comuna": "Peumo" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 95,
+    "fields": { "comuna": "Pichidegua" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 96,
+    "fields": { "comuna": "Quinta de Tilcoco" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 97, "fields": { "comuna": "Rengo" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 98,
+    "fields": { "comuna": "Requ\u00ednoa" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 99,
+    "fields": { "comuna": "San Vicente" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 100,
+    "fields": { "comuna": "Pichilemu" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 101,
+    "fields": { "comuna": "La Estrella" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 102,
+    "fields": { "comuna": "Litueche" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 103,
+    "fields": { "comuna": "Marchihue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 104,
+    "fields": { "comuna": "Navidad" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 105,
+    "fields": { "comuna": "Paredones" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 106,
+    "fields": { "comuna": "San Fernando" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 107,
+    "fields": { "comuna": "Ch\u00e9pica" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 108,
+    "fields": { "comuna": "Chimbarongo" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 109, "fields": { "comuna": "Lolol" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 110,
+    "fields": { "comuna": "Nancagua" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 111,
+    "fields": { "comuna": "Palmilla" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 112,
+    "fields": { "comuna": "Peralillo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 113,
+    "fields": { "comuna": "Placilla" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 114,
+    "fields": { "comuna": "Pumanque" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 115,
+    "fields": { "comuna": "Santa Cruz" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 116, "fields": { "comuna": "Talca" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 117,
+    "fields": { "comuna": "Constituci\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 118,
+    "fields": { "comuna": "Curepto" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 119,
+    "fields": { "comuna": "Empedrado" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 120, "fields": { "comuna": "Maule" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 121,
+    "fields": { "comuna": "Pelarco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 122,
+    "fields": { "comuna": "Pencahue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 123,
+    "fields": { "comuna": "R\u00edo Claro" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 124,
+    "fields": { "comuna": "San Clemente" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 125,
+    "fields": { "comuna": "San Rafael" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 126,
+    "fields": { "comuna": "Cauquenes" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 127,
+    "fields": { "comuna": "Chanco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 128,
+    "fields": { "comuna": "Pelluhue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 129,
+    "fields": { "comuna": "Curic\u00f3" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 130,
+    "fields": { "comuna": "Huala\u00f1\u00e9" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 131,
+    "fields": { "comuna": "Licant\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 132,
+    "fields": { "comuna": "Molina" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 133, "fields": { "comuna": "Rauco" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 134,
+    "fields": { "comuna": "Romeral" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 135,
+    "fields": { "comuna": "Sagrada Familia" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 136, "fields": { "comuna": "Teno" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 137,
+    "fields": { "comuna": "Vichuqu\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 138,
+    "fields": { "comuna": "Linares" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 139,
+    "fields": { "comuna": "Colb\u00fan" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 140,
+    "fields": { "comuna": "Longav\u00ed" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 141,
+    "fields": { "comuna": "Parral" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 142,
+    "fields": { "comuna": "Retiro" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 143,
+    "fields": { "comuna": "San Javier" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 144,
+    "fields": { "comuna": "Villa Alegre" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 145,
+    "fields": { "comuna": "Yerbas Buenas" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 146,
+    "fields": { "comuna": "Cobquecura" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 147,
+    "fields": { "comuna": "Coelemu" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 148,
+    "fields": { "comuna": "Ninhue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 149,
+    "fields": { "comuna": "Portezuelo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 150,
+    "fields": { "comuna": "Quirihue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 151,
+    "fields": { "comuna": "R\u00e1nquil" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 152,
+    "fields": { "comuna": "Treguaco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 153,
+    "fields": { "comuna": "Bulnes" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 154,
+    "fields": { "comuna": "Chill\u00e1n Viejo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 155,
+    "fields": { "comuna": "Chill\u00e1n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 156,
+    "fields": { "comuna": "El Carmen" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 157,
+    "fields": { "comuna": "Pemuco" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 158, "fields": { "comuna": "Pinto" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 159,
+    "fields": { "comuna": "Quill\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 160,
+    "fields": { "comuna": "San Ignacio" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 161,
+    "fields": { "comuna": "Yungay" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 162,
+    "fields": { "comuna": "Coihueco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 163,
+    "fields": { "comuna": "\u00d1iqu\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 164,
+    "fields": { "comuna": "San Carlos" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 165,
+    "fields": { "comuna": "San Fabi\u00e1n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 166,
+    "fields": { "comuna": "San Nicol\u00e1s" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 167,
+    "fields": { "comuna": "Concepci\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 168,
+    "fields": { "comuna": "Coronel" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 169,
+    "fields": { "comuna": "Chiguayante" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 170,
+    "fields": { "comuna": "Florida" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 171,
+    "fields": { "comuna": "Hualqui" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 172, "fields": { "comuna": "Lota" } },
+  { "model": "arrienda_ya.comuna", "pk": 173, "fields": { "comuna": "Penco" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 174,
+    "fields": { "comuna": "San Pedro de la Paz" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 175,
+    "fields": { "comuna": "Santa Juana" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 176,
+    "fields": { "comuna": "Talcahuano" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 177,
+    "fields": { "comuna": "Tom\u00e9" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 178,
+    "fields": { "comuna": "Hualp\u00e9n" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 179, "fields": { "comuna": "Lebu" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 180,
+    "fields": { "comuna": "Arauco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 181,
+    "fields": { "comuna": "Ca\u00f1ete" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 182,
+    "fields": { "comuna": "Contulmo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 183,
+    "fields": { "comuna": "Curanilahue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 184,
+    "fields": { "comuna": "Los \u00c1lamos" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 185,
+    "fields": { "comuna": "Tir\u00faa" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 186,
+    "fields": { "comuna": "Los \u00c1ngeles" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 187,
+    "fields": { "comuna": "Antuco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 188,
+    "fields": { "comuna": "Cabrero" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 189, "fields": { "comuna": "Laja" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 190,
+    "fields": { "comuna": "Mulch\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 191,
+    "fields": { "comuna": "Nacimiento" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 192,
+    "fields": { "comuna": "Negrete" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 193,
+    "fields": { "comuna": "Quilaco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 194,
+    "fields": { "comuna": "Quilleco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 195,
+    "fields": { "comuna": "San Rosendo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 196,
+    "fields": { "comuna": "Santa B\u00e1rbara" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 197,
+    "fields": { "comuna": "Tucapel" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 198,
+    "fields": { "comuna": "Yumbel" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 199,
+    "fields": { "comuna": "Alto Biob\u00edo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 200,
+    "fields": { "comuna": "Temuco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 201,
+    "fields": { "comuna": "Carahue" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 202, "fields": { "comuna": "Cunco" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 203,
+    "fields": { "comuna": "Curarrehue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 204,
+    "fields": { "comuna": "Freire" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 205,
+    "fields": { "comuna": "Galvarino" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 206,
+    "fields": { "comuna": "Gorbea" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 207,
+    "fields": { "comuna": "Lautaro" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 208,
+    "fields": { "comuna": "Loncoche" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 209,
+    "fields": { "comuna": "Melipeuco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 210,
+    "fields": { "comuna": "Nueva Imperial" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 211,
+    "fields": { "comuna": "Padre las Casas" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 212,
+    "fields": { "comuna": "Perquenco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 213,
+    "fields": { "comuna": "Pitrufqu\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 214,
+    "fields": { "comuna": "Puc\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 215,
+    "fields": { "comuna": "Saavedra" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 216,
+    "fields": { "comuna": "Teodoro Schmidt" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 217,
+    "fields": { "comuna": "Tolt\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 218,
+    "fields": { "comuna": "Vilc\u00fan" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 219,
+    "fields": { "comuna": "Villarrica" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 220,
+    "fields": { "comuna": "Cholchol" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 221, "fields": { "comuna": "Angol" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 222,
+    "fields": { "comuna": "Collipulli" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 223,
+    "fields": { "comuna": "Curacaut\u00edn" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 224,
+    "fields": { "comuna": "Ercilla" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 225,
+    "fields": { "comuna": "Lonquimay" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 226,
+    "fields": { "comuna": "Los Sauces" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 227,
+    "fields": { "comuna": "Lumaco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 228,
+    "fields": { "comuna": "Pur\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 229,
+    "fields": { "comuna": "Renaico" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 230,
+    "fields": { "comuna": "Traigu\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 231,
+    "fields": { "comuna": "Victoria" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 232,
+    "fields": { "comuna": "Valdivia" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 233,
+    "fields": { "comuna": "Corral" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 234, "fields": { "comuna": "Lanco" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 235,
+    "fields": { "comuna": "Los Lagos" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 236,
+    "fields": { "comuna": "M\u00e1fil" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 237,
+    "fields": { "comuna": "Mariquina" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 238,
+    "fields": { "comuna": "Paillaco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 239,
+    "fields": { "comuna": "Panguipulli" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 240,
+    "fields": { "comuna": "La Uni\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 241,
+    "fields": { "comuna": "Futrono" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 242,
+    "fields": { "comuna": "Lago Ranco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 243,
+    "fields": { "comuna": "R\u00edo Bueno" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 244,
+    "fields": { "comuna": "Puerto Montt" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 245,
+    "fields": { "comuna": "Calbuco" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 246,
+    "fields": { "comuna": "Cocham\u00f3" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 247,
+    "fields": { "comuna": "Fresia" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 248,
+    "fields": { "comuna": "Frutillar" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 249,
+    "fields": { "comuna": "Los Muermos" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 250,
+    "fields": { "comuna": "Llanquihue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 251,
+    "fields": { "comuna": "Maull\u00edn" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 252,
+    "fields": { "comuna": "Puerto Varas" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 253,
+    "fields": { "comuna": "Castro" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 254, "fields": { "comuna": "Ancud" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 255,
+    "fields": { "comuna": "Chonchi" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 256,
+    "fields": { "comuna": "Curaco de V\u00e9lez" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 257,
+    "fields": { "comuna": "Dalcahue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 258,
+    "fields": { "comuna": "Puqueld\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 259,
+    "fields": { "comuna": "Queil\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 260,
+    "fields": { "comuna": "Quell\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 261,
+    "fields": { "comuna": "Quemchi" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 262,
+    "fields": { "comuna": "Quinchao" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 263,
+    "fields": { "comuna": "Osorno" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 264,
+    "fields": { "comuna": "Puerto Octay" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 265,
+    "fields": { "comuna": "Purranque" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 266,
+    "fields": { "comuna": "Puyehue" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 267,
+    "fields": { "comuna": "R\u00edo Negro" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 268,
+    "fields": { "comuna": "San Juan de la Costa" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 269,
+    "fields": { "comuna": "San Pablo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 270,
+    "fields": { "comuna": "Chait\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 271,
+    "fields": { "comuna": "Futaleuf\u00fa" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 272,
+    "fields": { "comuna": "Hualaihu\u00e9" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 273,
+    "fields": { "comuna": "Palena" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 274,
+    "fields": { "comuna": "Coihaique" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 275,
+    "fields": { "comuna": "Lago Verde" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 276,
+    "fields": { "comuna": "Ais\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 277,
+    "fields": { "comuna": "Cisnes" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 278,
+    "fields": { "comuna": "Guaitecas" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 279,
+    "fields": { "comuna": "Cochrane" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 280,
+    "fields": { "comuna": "O\u2019Higgins" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 281,
+    "fields": { "comuna": "Tortel" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 282,
+    "fields": { "comuna": "Chile Chico" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 283,
+    "fields": { "comuna": "R\u00edo Ib\u00e1\u00f1ez" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 284,
+    "fields": { "comuna": "Punta Arenas" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 285,
+    "fields": { "comuna": "Laguna Blanca" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 286,
+    "fields": { "comuna": "R\u00edo Verde" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 287,
+    "fields": { "comuna": "San Gregorio" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 288,
+    "fields": { "comuna": "Cabo de Hornos (Ex Navarino)" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 289,
+    "fields": { "comuna": "Ant\u00e1rtica" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 290,
+    "fields": { "comuna": "Porvenir" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 291,
+    "fields": { "comuna": "Primavera" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 292,
+    "fields": { "comuna": "Timaukel" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 293,
+    "fields": { "comuna": "Natales" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 294,
+    "fields": { "comuna": "Torres del Paine" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 295,
+    "fields": { "comuna": "Cerrillos" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 296,
+    "fields": { "comuna": "Cerro Navia" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 297,
+    "fields": { "comuna": "Conchal\u00ed" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 298,
+    "fields": { "comuna": "El Bosque" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 299,
+    "fields": { "comuna": "Estaci\u00f3n Central" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 300,
+    "fields": { "comuna": "Huechuraba" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 301,
+    "fields": { "comuna": "Independencia" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 302,
+    "fields": { "comuna": "La Cisterna" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 303,
+    "fields": { "comuna": "La Florida" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 304,
+    "fields": { "comuna": "La Granja" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 305,
+    "fields": { "comuna": "La Pintana" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 306,
+    "fields": { "comuna": "La Reina" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 307,
+    "fields": { "comuna": "Las Condes" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 308,
+    "fields": { "comuna": "Lo Barnechea" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 309,
+    "fields": { "comuna": "Lo Espejo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 310,
+    "fields": { "comuna": "Lo Prado" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 311, "fields": { "comuna": "Macul" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 312,
+    "fields": { "comuna": "Maip\u00fa" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 313,
+    "fields": { "comuna": "\u00d1u\u00f1oa" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 314,
+    "fields": { "comuna": "Pedro Aguirre Cerda" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 315,
+    "fields": { "comuna": "Pe\u00f1alol\u00e9n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 316,
+    "fields": { "comuna": "Providencia" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 317,
+    "fields": { "comuna": "Pudahuel" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 318,
+    "fields": { "comuna": "Quilicura" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 319,
+    "fields": { "comuna": "Quinta Normal" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 320,
+    "fields": { "comuna": "Recoleta" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 321, "fields": { "comuna": "Renca" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 322,
+    "fields": { "comuna": "Santiago" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 323,
+    "fields": { "comuna": "San Joaqu\u00edn" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 324,
+    "fields": { "comuna": "San Miguel" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 325,
+    "fields": { "comuna": "San Ram\u00f3n" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 326,
+    "fields": { "comuna": "Vitacura" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 327,
+    "fields": { "comuna": "Puente Alto" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 328,
+    "fields": { "comuna": "Pirque" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 329,
+    "fields": { "comuna": "San Jos\u00e9 de Maipo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 330,
+    "fields": { "comuna": "Colina" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 331, "fields": { "comuna": "Lampa" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 332,
+    "fields": { "comuna": "Tiltil" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 333,
+    "fields": { "comuna": "San Bernardo" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 334, "fields": { "comuna": "Buin" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 335,
+    "fields": { "comuna": "Calera de Tango" }
+  },
+  { "model": "arrienda_ya.comuna", "pk": 336, "fields": { "comuna": "Paine" } },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 337,
+    "fields": { "comuna": "Melipilla" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 338,
+    "fields": { "comuna": "Alhu\u00e9" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 339,
+    "fields": { "comuna": "Curacav\u00ed" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 340,
+    "fields": { "comuna": "Mar\u00eda Pinto" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 341,
+    "fields": { "comuna": "San Pedro" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 342,
+    "fields": { "comuna": "Talagante" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 343,
+    "fields": { "comuna": "El Monte" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 344,
+    "fields": { "comuna": "Isla de Maipo" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 345,
+    "fields": { "comuna": "Padre Hurtado" }
+  },
+  {
+    "model": "arrienda_ya.comuna",
+    "pk": 346,
+    "fields": { "comuna": "Pe\u00f1aflor" }
+  }
+]
