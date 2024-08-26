@@ -1,0 +1,37 @@
+[
+  {
+    "model": "arrienda_ya.tipoinmueble",
+    "pk": 1,
+    "fields": {
+      "tipo_inmueble": "casa"
+    }
+  },
+  {
+    "model": "arrienda_ya.tipoinmueble",
+    "pk": 2,
+    "fields": {
+      "tipo_inmueble": "departamento"
+    }
+  },
+  {
+    "model": "arrienda_ya.tipoinmueble",
+    "pk": 3,
+    "fields": {
+      "tipo_inmueble": "parcela"
+    }
+  },
+  {
+    "model": "arrienda_ya.tipoinmueble",
+    "pk": 4,
+    "fields": {
+      "tipo_inmueble": "estacionamiento"
+    }
+  },
+  {
+    "model": "arrienda_ya.tipoinmueble",
+    "pk": 5,
+    "fields": {
+      "tipo_inmueble": "otro"
+    }
+  }
+]
