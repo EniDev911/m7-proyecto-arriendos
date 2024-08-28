@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg bg-body">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-target="#navbar" data-bs-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <div class="navbar-nav mb-2 mb-lg-0 w-100">
+        <a class="nav-link" aria-current="page" href="{% url "indice" %}">Índice</a>
+        <a class="nav-link" href="{% url "acerca" %}">Acerca</a>
+        <a class="nav-link" href="{% url "contacto" %}">Contacto</a>
+        {% if user.is_authenticated %}
+          <a class="nav-link" href="{% url "bienvenido" %}">Bienvenido</a>
+          <li class="nav-item align-self-center ms-auto me-2">
+            Hola 👋 {{ user.username }}
+          </li>
+        <a class="nav-link bg-danger rounded text-light" href="{% url 'logout' %}">Cerrar sesión</a>
+        {% else %}
+          <a class="nav-link bg-warning rounded ms-auto" href="{% url 'login' %}">Iniciar sesión</a>    
+          <a class="nav-link bg-dark rounded text-light ms-2" href="#">Registrarse</a>    
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</nav>
