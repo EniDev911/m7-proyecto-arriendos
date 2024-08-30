@@ -17,3 +17,7 @@ class TipoForm(forms.Form):
   rut = forms.CharField(label='rut', max_length=100)
   direccion = forms.CharField(label='direccion', max_length=100)
   telefono = forms.CharField(label='telefono', max_length=100)
+
+class UserUpdateForm(forms.ModelForm):
+  class Meta:
+    fields = ['first_name', 'last_name', 'email']
