@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 
+LOGOUT_REDIRECT_URL = "/"
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'arrienda_ya',
+    'bootstrap5',
     'crispy_forms'
 ]
 
@@ -58,8 +60,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-          os.path.join(BASE_DIR, 'web/templates/includes/'),
-          os.path.join(BASE_DIR, 'web/templates/pages/')
+          os.path.join(BASE_DIR, 'arrienda_ya/templates/includes/'),
+          os.path.join(BASE_DIR, 'arrienda_ya/templates/pages/')
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -119,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-CL'
 
 TIME_ZONE = 'UTC'
 
