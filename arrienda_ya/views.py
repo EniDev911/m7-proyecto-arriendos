@@ -34,7 +34,7 @@ def register_tipo_view(request):
                              id_tipo_user=tipo_user,
                              rut=rut,
                              direccion=direccion,
-                             telefono=telefono,
+                             telefono=telefono
                              )
       profile_user.save()
       return HttpResponseRedirect('/login/')
