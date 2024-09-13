@@ -15,7 +15,3 @@ def register_view(request):
   else:
     form = UserForm()
   return render(request, 'registration/register.html', {'form': form})
-
-
-def register_tipo_view(request):
-  pass
