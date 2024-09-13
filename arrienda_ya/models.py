@@ -6,13 +6,22 @@ class Usuario(models.Model):
 
   def __str__(self):
     return f"Se creo al usuario: {self.username}"
-  
+
+
 class TipoUsuario(models.Model):
   TIPO_USUARIO = [('a', 'arrendatario'), ('b', 'arrendador')]
   tipo = models.CharField(max_length=1,choices=TIPO_USUARIO, default='A')
 
   def __str__(self) -> str:
     return f"{self.get_tipo_display()}"
+
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    id_tipo_user = models.ForeignKey(TipoUsuario, on_delete=models.CASCADE, null=True)
+    rut = models.CharField(max_length=12)
+    direccion = models.TextField()
+    telefono = models.CharField(max_length=12)
+    correo = models.CharField(max_length=100)
 
 class Inmueble(models.Model):
   id_usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE, null=True)
