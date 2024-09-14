@@ -41,3 +41,6 @@ def register_tipo_view(request):
   else:
     form = TipoForm()
   return render(request, 'registration/register_tipo.html', {'form': form})
+
+def dashboard_view(request):
+  return render(request, 'dashboard.html')
