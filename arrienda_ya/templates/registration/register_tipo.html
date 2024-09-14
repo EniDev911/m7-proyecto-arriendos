@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Crear nuevo usuario</h1>
+<form method="POST">
+  {% csrf_token %}
+  <fieldset class="form-group">
+    {{ form.as_p }}
+  </fieldset>
+  <div class="form-group">
+    <button type="submit" class="btn btn-dark">Registrar</button>
+  </div>
+</form>
+{% endblock %}
+
