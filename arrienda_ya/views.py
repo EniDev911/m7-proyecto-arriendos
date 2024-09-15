@@ -1,6 +1,6 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-
+from django.contrib.auth.decorators import login_required
 from .models import Profile, TipoUsuario, Usuario
 from .forms import TipoForm, UserForm
 from django.contrib.auth.models import User
@@ -42,5 +42,6 @@ def register_tipo_view(request):
     form = TipoForm()
   return render(request, 'registration/register_tipo.html', {'form': form})
 
+@login_required
 def dashboard_view(request):
   return render(request, 'dashboard.html')
