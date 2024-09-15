@@ -1,5 +1,5 @@
 from django.http import HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.contrib.auth.decorators import login_required
 from .models import Profile, TipoUsuario, Usuario
 from .forms import TipoForm, UserForm
@@ -37,7 +37,7 @@ def register_tipo_view(request):
                              telefono=telefono
                              )
       profile_user.save()
-      return HttpResponseRedirect('/login/')
+      return redirect('login_url')
   else:
     form = TipoForm()
   return render(request, 'registration/register_tipo.html', {'form': form})
