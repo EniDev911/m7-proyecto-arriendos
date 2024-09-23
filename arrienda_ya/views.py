@@ -82,3 +82,8 @@ def update_inmueble_view(request: HttpRequest, pk:int):
   else:
     form = UpdateInmuebleForm(instance=inmueble) 
   return render(request, 'edit_inmueble.html', {'form': form})
+
+@login_required
+def inmuebles_view(request: HttpRequest):
+  inmuebles = Inmueble.objects.all()
+  return render(request, 'inmuebles.html', {'inmuebles': inmuebles })
