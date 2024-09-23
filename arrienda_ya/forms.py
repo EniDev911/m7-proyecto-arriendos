@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
-from .models import Comuna, Region
+from .models import Comuna, Region, TipoInmueble
 
 class UserForm(UserCreationForm):
   email = forms.EmailField(label="Correo electrónico")
@@ -24,10 +24,11 @@ class TipoForm(forms.Form):
 class NewInmuebleForm(forms.Form):
   comunas = [(x.id, x.comuna) for x in Comuna.objects.filter()]
   regiones = [(x.id, x.region) for x in Region.objects.filter()]
+  tipos = [(t.id, t.tipo_inmueble) for t in TipoInmueble.objects.filter()]
   nombre_comuna = lambda x: x[1]
   id_region = forms.ChoiceField(label="Región", choices=regiones)
   id_comuna = forms.ChoiceField(label="Comuna", choices=sorted(comunas, key=nombre_comuna))
-  id_tipo_inmueble = forms.ChoiceField(label="Tipo de inmueble", choices="")
+  id_tipo_inmueble = forms.ChoiceField(label="Tipo de inmueble", choices=tipos)
   nombre_inmueble = forms.CharField(label="Nombre Inmueble", max_length=100)
   descripcion = forms.CharField(label="Descripción del Inmueble", max_length=100)
   m2_construido = forms.CharField(label="M2 construidos", max_length=100)
