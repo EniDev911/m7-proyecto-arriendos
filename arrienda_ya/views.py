@@ -1,8 +1,8 @@
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
+from django.http import HttpResponseRedirect, HttpRequest
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
-from .models import Profile, TipoUsuario, Usuario
-from .forms import TipoForm, UserForm
+from .models import Comuna, Profile, Region, TipoUsuario, Usuario, Inmueble, TipoInmueble
+from .forms import TipoForm, UserForm, NewInmuebleForm
 from django.contrib.auth.models import User
 # Create your views here.
 
@@ -37,7 +37,7 @@ def register_tipo_view(request):
                              telefono=telefono
                              )
       profile_user.save()
-      return HttpResponseRedirect('/login/')
+      return redirect('login_url')
   else:
     form = TipoForm()
   return render(request, 'registration/register_tipo.html', {'form': form})
@@ -45,3 +45,28 @@ def register_tipo_view(request):
 @login_required
 def dashboard_view(request):
   return render(request, 'dashboard.html')
+
+@login_required
+def new_inmueble_view(request: HttpRequest):
+  if request.method == 'POST' and request.user.profile.id_tipo_user_id == 2:
+    form = NewInmuebleForm(request.POST)
+    if form.is_valid():
+      nuevo_inmueble = Inmueble(
+        id_tipo_inmueble = TipoInmueble.objects.get(id=int(form.cleaned_data['id_tipo_inmueble'])),
+        id_comuna = Comuna.objects.get(id=int(form.cleaned_data['id_comuna'])),
+        id_region = Region.objects.get(id=int(form.cleaned_data['id_region'])),
+        nombre_inmueble = form.cleaned_data['nombre_inmueble'],
+        descripcion = form.cleaned_data['descripcion'],
+        m2_construido = form.cleaned_data['m2_construido'],
+        numero_banos = form.cleaned_data['numero_banos'],
+        numero_habitaciones = form.cleaned_data['numero_habitaciones'],
+        direccion = form.cleaned_data['direccion'],
+        m2_terreno = form.cleaned_data['m2_terreno'],
+        numero_est = form.cleaned_data['numero_est']
+      )
+      nuevo_inmueble.id_usuario_id = request.user.id
+      nuevo_inmueble.save()
+      return redirect('dashboard')
+  else:
+    form = NewInmuebleForm()
+  return render(request, 'new_inmueble.html', {'form':form})
