@@ -10,5 +10,6 @@ urlpatterns = [
   path('register_tipo/', views.register_tipo_view, name='register_tipo_url'),
   path('dashboard/', views.dashboard_view, name='dashboard'),
   path('new_inmueble/', views.new_inmueble_view, name='new_inmueble_url'),
-  path('inmueble/update/<int:pk>', views.new_inmueble_view, name='update_inmueble_url')
+  path('inmueble/update/<int:pk>', views.update_inmueble_view, name='update_inmueble_url'),
+  path('inmuebles/', views.inmuebles_view, name='inmuebles_url')
 ]
