@@ -9,5 +9,6 @@ urlpatterns = [
   path('register/', views.register_view, name='register_url'),
   path('register_tipo/', views.register_tipo_view, name='register_tipo_url'),
   path('dashboard/', views.dashboard_view, name='dashboard'),
-  path('new_inmueble/', views.new_inmueble_view, name='new_inmueble_url')
+  path('new_inmueble/', views.new_inmueble_view, name='new_inmueble_url'),
+  path('inmueble/update/<int:pk>', views.new_inmueble_view, name='update_inmueble_url')
 ]
