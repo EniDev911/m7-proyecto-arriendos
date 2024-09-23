@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
-from .models import Comuna, Region, TipoInmueble
+from .models import Comuna, Region, TipoInmueble, Inmueble
 
 class UserForm(UserCreationForm):
   email = forms.EmailField(label="Correo electrónico")
@@ -22,7 +22,7 @@ class TipoForm(forms.Form):
   telefono = forms.CharField(label="teléfono", max_length=100)
 
 class NewInmuebleForm(forms.Form):
-  comunas = [(x.id, x.comuna) for x in Comuna.objects.filter()]
+  comunas = [(x.id, x.comuna) for x in Comuna.objects.filter()] 
   regiones = [(x.id, x.region) for x in Region.objects.filter()]
   tipos = [(t.id, t.tipo_inmueble) for t in TipoInmueble.objects.filter()]
   nombre_comuna = lambda x: x[1]
@@ -37,3 +37,24 @@ class NewInmuebleForm(forms.Form):
   direccion = forms.CharField(label="dirección", max_length=100)
   m2_terreno = forms.CharField(label="M2 terreno", max_length=100)
   numero_est = forms.CharField(label="N° estacionamiento", max_length=100)
+
+class UpdateInmuebleForm(forms.ModelForm):
+  def __init__(self, *args, **kwargs):
+     super(UpdateInmuebleForm, self).__init__(*args, **kwargs)
+     self.fields['id_region'].choices = [(x.id, x.region) for x in Region.objects.filter()]
+     self.fields['id_comuna'].choices = [(x.id, x.comuna) for x in Comuna.objects.filter()]
+     self.fields['id_tipo_inmueble'].choices = [(x.id, x.tipo_inmueble) for x in TipoInmueble.objects.filter()]
+  class Meta:
+    model = Inmueble
+    fields = ['id_region', 'id_comuna', 'nombre_inmueble', 'id_tipo_inmueble', 'descripcion', 'm2_construido', 'numero_banos', 'numero_habitaciones', 'numero_est']
+    labels = {
+      'id_region': 'Región',  
+      'id_comuna': 'Comuna',
+      'nombre_inmueble': 'Nombre inmueble',
+      'id_tipo_inmueble': 'Tipo de inmueble',
+      'descripcion': 'Descripción',
+      'm2_construido': 'M2 construidos',
+      'numero_banos': 'N° de baños',
+      'numero_habitaciones': 'N° de habitaciones',
+      'numero_est': 'N° de estacionamientos'
+    }
