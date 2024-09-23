@@ -1,8 +1,8 @@
 from django.http import HttpResponseRedirect, HttpRequest
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .models import Comuna, Profile, Region, TipoUsuario, Usuario, Inmueble, TipoInmueble
-from .forms import TipoForm, UserForm, NewInmuebleForm
+from .forms import TipoForm, UserForm, NewInmuebleForm, UpdateInmuebleForm
 from django.contrib.auth.models import User
 # Create your views here.
 
@@ -70,3 +70,15 @@ def new_inmueble_view(request: HttpRequest):
   else:
     form = NewInmuebleForm()
   return render(request, 'new_inmueble.html', {'form':form})
+
+@login_required
+def update_inmueble_view(request: HttpRequest, pk:int):
+  inmueble = get_object_or_404(Inmueble, id=pk, id_usuario=request.user.id)
+  if request.method == "POST":
+    form = UpdateInmuebleForm(request.POST, instance=inmueble)
+    if form.is_valid():
+      form.save()
+      return redirect('dashboard')
+  else:
+    form = UpdateInmuebleForm(instance=inmueble) 
+  return render(request, 'edit_inmueble.html', {'form': form})
