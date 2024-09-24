@@ -2,7 +2,7 @@ from django.http import HttpResponseRedirect, HttpRequest
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .models import Comuna, Profile, Region, TipoUsuario, Usuario, Inmueble, TipoInmueble
-from .forms import TipoForm, UserForm, NewInmuebleForm, UpdateInmuebleForm
+from .forms import TipoForm, UserForm, NewInmuebleForm, UpdateInmuebleForm, UserUpdateForm
 from django.contrib.auth.models import User
 # Create your views here.
 
@@ -87,3 +87,15 @@ def update_inmueble_view(request: HttpRequest, pk:int):
 def inmuebles_view(request: HttpRequest):
   inmuebles = Inmueble.objects.all()
   return render(request, 'inmuebles.html', {'inmuebles': inmuebles })
+
+@login_required
+def profile_view(request: HttpRequest):
+  if request.method == "POST":
+    form = UserUpdateForm(request.POST, instance=request.user)
+
+    if form.is_valid():
+      form.save()
+      return redirect('dashboard')
+  else:
+    form = UserUpdateForm(instance=request.user)
+  return render(request, 'registration/update_profile.html', {'form': form})
