@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row my-5">
+{% for inmueble in inmuebles %}
+<div class="col-12 col-md-6 col-xl-4">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{ inmueble.nombre_inmueble }}</h5>
+    <div><strong>Region:</strong> {{ inmueble.id_region.region }}</div>
+    <div><strong>Comuna:</strong> {{ inmueble.id_comuna.comuna }}</div>
+    <p class="card-text">{{ inmueble.descripcion }}</p>
+    <ul class="list-group">
+      <li class="list-group-item"><b>N° baños:</b> {{ inmueble.numero_banos }}</li>
+      <li class="list-group-item"><b>M2 construidos:</b> {{ inmueble.m2_construido }}</li>
+      <li class="list-group-item"><b>M2 terreno:</b> {{ inmueble.m2_terreno }}</li>
+    </ul>
+  </div>
+</div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
